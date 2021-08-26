@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import Recipes from "./Recipes";
 require('dotenv').config()
 
-const APP_ID = process.env.APP_ID;
-const APP_KEY = process.env.APP_KEY;
+const APP_ID = process.env.REACT_APP_ID;
+const APP_KEY = process.env.REACT_APP_KEY;
 
 function App() {
   const [recipe, setRecipe] = useState([]);
